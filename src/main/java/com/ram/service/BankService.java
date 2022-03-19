@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface BankService {
     List<User>  getUserInfo();
+    User createUserInfo(User user);
+    User getUserInfoByAccountNumber(Integer accountNumber);
 }
